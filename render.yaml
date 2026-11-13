@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: lunaar
+    runtime: docker
+    plan: free
+    region: ohio
+    healthCheckPath: /
